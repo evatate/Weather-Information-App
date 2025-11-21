@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="cities_title">Cities</string>
+    <string name="add_city">Add City</string>
+    <string name="city_name">City Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="no_cities">No cities added yet</string>
+    <string name="add_city_hint">Enter city name</string>
+    <string name="weather_details">Weather Details</string>
+    <string name="temperature">Temperature: %1$.1f°C</string>
+    <string name="feels_like">Feels like: %1$.1f°C</string>
+    <string name="min_temp">Min: %1$.1f°C</string>
+    <string name="max_temp">Max: %1$.1f°C</string>
+    <string name="humidity">Humidity: %1$d%%</string>
+    <string name="pressure">Pressure: %1$d hPa</string>
+    <string name="wind_speed">Wind: %1$.1f m/s</string>
+    <string name="description">%1$s</string>
+    <string name="loading">Loading weather data…</string>
+    <string name="error_loading">Error loading weather data</string>
+    <string name="retry">Retry</string>
+    <string name="city_not_found">City not found</string>
+    <string name="network_error">Network error. Please check your connection.</string>
+    <string name="delete">Delete</string>
+</resources>
