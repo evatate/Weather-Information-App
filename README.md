@@ -6,7 +6,7 @@ An Android application designed for real-time retrieval and display of weather i
 
 ## Architecture Overview
 
-The app follows a **clean, modular architecture** based on MVVM principles:
+The app follows a clean, modular architecture based on MVVM principles:
 
 ```
 UI Layer (Jetpack Compose)
@@ -40,7 +40,7 @@ Dependency injection with **Hilt** decouples components, making each layer indep
 6. **UI Update:** ViewModel updates `StateFlow`, and Jetpack Compose recomposes only affected components.
 7. **Dynamic Assets:** Weather icons are loaded via Coil and cached for efficient re-rendering.
 
-This flow ensures **non-blocking UI updates**, type-safe data handling, and minimal memory overhead.
+This flow ensures non-blocking UI updates, type-safe data handling, and minimal memory overhead.
 
 ---
 
